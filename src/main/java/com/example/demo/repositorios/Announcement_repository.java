@@ -3,10 +3,10 @@ package com.example.demo.repositorios;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.model.Anuncios;
+import com.example.demo.model.Announcement;
 
 
-public interface Anuncios_repositorio extends JpaRepository<Anuncios,Integer> {
+public interface Announcement_repository extends JpaRepository<Announcement,Integer> {
 
 }
 
